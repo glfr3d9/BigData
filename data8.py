@@ -93,5 +93,4 @@ y_pred = clf.fit(X_train, y_train).predict(X_test)
 print('Неправильные измерения '+str((y_test != y_pred).sum()))
 print('Точность ' + str(clf.score(X, Y)))
 
-
 # plt.show()
