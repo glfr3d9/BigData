@@ -5,6 +5,7 @@ import pandas as pd
 from mlxtend.frequent_patterns import fpgrowth, fpmax, association_rules
 from mlxtend.preprocessing import TransactionEncoder
 
+
 print('2. Загрузить данные в датафрейм')
 all_data = pd.read_csv('groceries - groceries.csv')
 print(all_data)  # Видно, что датафрейм содержит NaN значения
